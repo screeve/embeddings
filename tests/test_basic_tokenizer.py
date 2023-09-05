@@ -1,4 +1,4 @@
-from embedding.tokenizer import Tokenizer
+from src.embedding.tokenizer import Tokenizer
 
 
 def test_whitespace_tokenizer(whitespace_tokenizer: Tokenizer) -> None:

@@ -1,7 +1,7 @@
-from embedding.model import Word2VecModel
+from src.embedding.model import Word2VecModel
 import numpy as np
 
-from embedding.tokenizer import Tokenizer
+from src.embedding.tokenizer import Tokenizer
 
 
 def test_out_of_vocabulary_word2vec(word2vec: Word2VecModel) -> None:

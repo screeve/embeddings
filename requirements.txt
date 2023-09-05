@@ -1,0 +1,4 @@
+gensim==4.3.2
+numpy==1.25.2
+pytest==7.4.1
+setuptools==68.1.2

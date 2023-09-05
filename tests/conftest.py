@@ -1,7 +1,7 @@
 import pytest
 
-from embedding.model import Word2VecModel
-from embedding.tokenizer import Tokenizer, WhitespaceTokenizer, BasicTokenizer, NumSubTokenizer, Word2VecTokenizer
+from src.embedding.model import Word2VecModel
+from src.embedding.tokenizer import Tokenizer, WhitespaceTokenizer, BasicTokenizer, NumSubTokenizer, Word2VecTokenizer
 
 
 @pytest.fixture
